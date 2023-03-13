@@ -1,0 +1,4 @@
+No hay concepto de cliente y servidor, si no el eque envia y el que escucha, se deben utilizar direcciones Ip clase D, que son especificas
+para estas difusiones, todo el mundo que este a la escucha de la direccion ip D del que esta emitiendo, recibira los paquetes.
+
+asi funcionan las plataformas como netflix...
