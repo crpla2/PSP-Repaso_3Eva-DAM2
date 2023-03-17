@@ -29,7 +29,7 @@ public class Cliente {
 		DataOutputStream salida= new DataOutputStream(sock.getOutputStream());
 		salida.writeUTF(url);
 		//Abro otro flujo de salida y mando el selector
-		salida= new DataOutputStream(sock.getOutputStream());
+	//MAL	//salida= new DataOutputStream(sock.getOutputStream());
 		salida.writeUTF(selector);
 				
 		//Abro un flujo de entrada

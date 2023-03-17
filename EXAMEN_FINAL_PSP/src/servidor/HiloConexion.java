@@ -30,7 +30,7 @@ public class HiloConexion extends Thread {
 			try {
 				entrada = new DataInputStream(sock.getInputStream());
 				url = entrada.readUTF();
-				entrada = new DataInputStream(sock.getInputStream());
+			//MAL	//entrada = new DataInputStream(sock.getInputStream());
 				selector = entrada.readUTF();
 			} catch (IOException e) {
 				System.err.println("Error en el flujo de entrada");
